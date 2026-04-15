@@ -14,3 +14,20 @@ class ConfigManager:
         logger.info(f'{config.rootdir_zip_down} has successfully created')
 
         return config
+    
+    from pathlib import Path
+
+class config_mgr_val:
+    def __init__(self):
+        self.config= read_yaml(Path('config/config.yaml'))
+        self.param= read_yaml(Path('params.yaml'))
+        self.shema= read_yaml(Path('schema.yaml'))
+    
+    def create_validation_dir(self):
+        config=self.config.data_validation
+        schema=self.shema
+        
+        createDIr([config.root_dir])
+        logger.info(f'the root directory for data validation has been successfully created')
+        
+        return config,schema
