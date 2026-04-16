@@ -41,7 +41,7 @@ class DataTransformaiton:
 
     def train_test(self):
         df=pd.read_csv(self.config.data_dir)
-        train, test = train_test_split(df,test_size=0.2)
+        train, test = train_test_split(df,test_size=0.2,random_state=42)
         train.to_csv(os.path.join(self.config.train_data_dir),index=False)
         test.to_csv(os.path.join(self.config.test_data_dir),index=False)
 

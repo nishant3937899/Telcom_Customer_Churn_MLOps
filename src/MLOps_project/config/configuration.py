@@ -44,3 +44,18 @@ class config_magr_tran:
         createDIr([config.root_dir_trans])
         logger.info('trasformation dir created')
         return config
+    
+
+class config_trainer:
+    def __init__(self):
+        self.config= read_yaml(Path('config/config.yaml'))
+        self.param= read_yaml(Path('params.yaml'))
+        self.shema= read_yaml(Path('schema.yaml'))
+
+    def create_trainer_dir(self):
+        config=self.config.model_trainer
+
+        createDIr([config.root_trainer_dir])
+        logger.info('model trainer root dir created')
+        
+        return config
