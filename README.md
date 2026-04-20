@@ -112,7 +112,8 @@ Achieved a more balanced trade-off:
 - docker
 ---
 
-## 🏗️ Project Structure  
+## 🏗️ Project Structure 
+```
 Telcom_Customer_Churn_MLOps/
 ├──artifacts/                   
 ├── config/
@@ -168,7 +169,7 @@ Telcom_Customer_Churn_MLOps/
 ├── schema.yaml
 ├── setup.py
 └── templates.py
-
+```
 ---
 
 ## ⚠️ Limitations & Future Improvements  
