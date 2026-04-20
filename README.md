@@ -176,6 +176,23 @@ Telcom_Customer_Churn_MLOps/
 ```
 ---
 
+## ⚡ How to Run the Project  
+
+```bash
+# 1. Clone the repository
+gh repo clone nishant3937899/Telcom_Customer_Churn_MLOps
+cd Telcom_Customer_Churn_MLOPs
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Run training pipeline (data ingestion → transformation → model training)
+python main.py
+
+# 4. Start the web application
+python app.py
+```
+---
 ## ⚠️ Limitations & Future Improvements  
 
 - Add prediction probability and confidence score  
