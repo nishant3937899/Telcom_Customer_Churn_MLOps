@@ -17,7 +17,11 @@ An end-to-end **MLOps project** for predicting telecom customer churn using mach
 
 ## 🌐 Live Application  
 👉 http://3.108.193.123:8080  
+Try it yourself:
+- Enter customer details for real-time prediction  
+- Upload a CSV file for batch prediction  
 
+📥 A sample dataset is available directly in the app (“Demo Datasets” link below the upload section)
 ---
 
 ## 📌 Problem Statement  
@@ -66,7 +70,7 @@ One of the biggest challenges in this project was dealing with class imbalance. 
 
 ### 🔹 Attempt 1: GridSearch + Balanced Class Weights  
 - Recall 1: 0.90
-- Recall 0: 0.52  
+- Recall 0: 0.53  
 - F1 Score: 0.88  
 
 **Observation:**  
