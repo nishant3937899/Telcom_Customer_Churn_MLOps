@@ -128,7 +128,7 @@ Telcom_Customer_Churn_MLOps/
 │   └── trial_evaluation.ipynb
 ├── src/
 │   └── MLOps_project/
-|       |   ├── __init__.py
+|       ├── __init__.py
 │       ├── components/
 |       |   ├── __init__.py
 │       │   ├── data_ingestion.py
