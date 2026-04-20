@@ -3,16 +3,17 @@
 An end-to-end **MLOps project** for predicting telecom customer churn using machine learning, deployed on the cloud with real-time and batch inference capabilities.
 
 ---
-
 ## 🎥 Demo Videos  
 
 - 📊 **Batch Prediction (CSV Upload):**  
-  https://github.com/nishant3937899/Telcom_Customer_Churn_MLOps/blob/182746762d76d549484d6262abc8a9cd9b12a65e/vids/csv_rec.mp4  
+ ![Batch Prediction Demo](https://raw.githubusercontent.com/nishant3937899/Telcom_Customer_Churn_MLOps/b74162860c7f0239d13e6192a230e1fe37fd5f7c/vids/csv_rec.gif)
+
 
 - ⚡ **Single Prediction (Web App):**  
-  https://github.com/nishant3937899/Telcom_Customer_Churn_MLOps/blob/182746762d76d549484d6262abc8a9cd9b12a65e/vids/rec.mp4  
+  ![Single Prediction Demo](https://raw.githubusercontent.com/nishant3937899/Telcom_Customer_Churn_MLOps/b74162860c7f0239d13e6192a230e1fe37fd5f7c/vids/rec.gif) 
 
 ---
+
 
 ## 🌐 Live Application  
 👉 http://3.108.193.123:8080  
