@@ -55,7 +55,7 @@ def main():
                 TotalCharges = request.form.get('TotalCharges') 
                 
             
-                # Pass variables to the predictor function
+                
                 results = predictor(
                     gender=gender,
                     SeniorCitizen=SeniorCitizen,
